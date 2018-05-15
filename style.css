@@ -221,7 +221,13 @@ svg {
 
 
 img {
-  height: 250px;
+  height: 290px;
+  width: auto;
+  margin: 25px;
+}
+
+.content img {
+  height: 450px;
   width: auto;
 }
 
