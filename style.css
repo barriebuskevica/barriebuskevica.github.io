@@ -1,0 +1,234 @@
+html,
+
+body {
+  background: LightGoldenRodYellow;
+  color: LightGoldenRodYellow;
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+
+}
+
+
+.description {
+  position: absolute;
+  top: 120px;
+  left: 265px;
+  width: 100%;
+  height: auto
+  text-align: justify;
+  font-family: verdana;
+  font-size: 18px;
+
+  animation: cssAnimation 0s 8s forwards;
+    visibility: hidden;
+  }
+
+  @keyframes cssAnimation {
+    to   { visibility: visible; }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+  -webkit-animation: fadein 20s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 20s; /* Firefox < 16 */
+        -ms-animation: fadein 20s; /* Internet Explorer */
+         -o-animation: fadein 20s; /* Opera < 12.1 */
+            animation: fadein 20s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.description img {
+  width: 320px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.gfo {
+  position: absolute;
+  top: 120px;
+  left: 635px;
+  width: 100%;
+  height: auto
+  text-align: justify;
+  font-family: verdana;
+  font-size: 18px;
+
+  animation: cssAnimation 0s 12s forwards;
+    visibility: hidden;
+  }
+
+  @keyframes cssAnimation {
+    to   { visibility: visible; }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+  -webkit-animation: fadein 20s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 20s; /* Firefox < 16 */
+        -ms-animation: fadein 20s; /* Internet Explorer */
+         -o-animation: fadein 20s; /* Opera < 12.1 */
+            animation: fadein 20s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.gfo img {
+  width: 320px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.email {
+  position: absolute;
+  top: 450px;
+  left: 265px;
+  width: 100%;
+  height: auto
+  text-align: justify;
+  font-family: verdana;
+  font-size: 18px;
+
+  animation: cssAnimation 0s 15s forwards;
+    visibility: hidden;
+  }
+
+  @keyframes cssAnimation {
+    to   { visibility: visible; }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+  -webkit-animation: fadein 15s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 15s; /* Firefox < 16 */
+        -ms-animation: fadein 15s; /* Internet Explorer */
+         -o-animation: fadein 15s; /* Opera < 12.1 */
+            animation: fadein 15s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.email img {
+  width: 320px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.marquee {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+svg {
+  display: block;
+}
+
+.logo {
+  stroke: #fff;
+}
+
+
+img {
+  height: 250px;
+  width: auto;
+}
+
+
+
+
+/* #cursor {
+  height: 100;
+  width: 100;
+} */

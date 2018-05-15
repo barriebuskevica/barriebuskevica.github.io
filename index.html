@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>good feelings only</title>
+  <meta name="description" content="good feelings only">
+  <meta name="author" content="jessicabarrie/paulabuskevica">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <div class="description">
+    <img src="images/pbjb_text.png" class="image">
+  </div>
+
+  <div class="gfo">
+    <img src="images/gfo_text.png" class="image">
+  </div>
+
+  <div class="email">
+    <img src="images/email.png" class="image">
+  </div>
+
+  <div class="marquee">
+    <img src="images/match_burning.gif" alt="Smiley face" height="42" width="42">
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+
+  <svg width="100%" height="100%">
+    <g transform="translate(100,100)">
+      <text id="TextElement" x="0" y="0" style="font-family:Verdana;font-size:18; visibility:hidden"> good feelings only
+        <set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="8s" fill="freeze" />
+        <animateMotion path="M 0 0 L 200 650" begin="1s" dur="8s" fill="freeze" />
+        <animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="80" begin="1s" dur="8s" fill="freeze" />
+        <animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="20" additive="sum" begin="1s" dur="8s" fill="freeze" />
+      </text>
+    </g>
+    Sorry, your browser does not support inline SVG.
+  </svg>
+
+<div class="content">  <video autoplay loop src="videos/cries.mp4" type="video/mp4" width="auto" height="50%" style="position:absolute; top:200px; left:500px; opacity:2"> </div>
+
+<audio autoplay loop src="audio/water_drops.mp3">
+
+</body>
+
+
+</html>
