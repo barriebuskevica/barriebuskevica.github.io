@@ -78,5 +78,5 @@ $(document).ready( function() {
 $(document).ready(function() {
     setTimeout(function() {
         $(".content").fadeOut(1500);
-    }, 5000);
+    }, 7000);
 });
