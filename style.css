@@ -211,18 +211,6 @@ body {
   top: 0;
 }
 
-.marqueetwo {
-  display: block;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-.marqueetwo img{
-  height: 80px;
-  width: auto;
-}
-
 svg {
   display: block;
 }
